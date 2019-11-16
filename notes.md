@@ -4,15 +4,17 @@ create index.js
 - make it main: index.js , in package.json
  "main": "index.js"
 
+ git init
+- gives me a git ignore
+or 
+touch .gitignore
+
 npm install express
 npm i helmet // protects headers
 npm install knex //install globally to use cli command line interface
 npm install sqlite3 
 
-git init
-- gives me a git ignore
-or 
-touch .gitignore
+
 
 npm i nodemon -D // could do global or dev
 //scripts: node index.js // does not rerender when saved
